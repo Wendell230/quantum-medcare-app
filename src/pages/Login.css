@@ -1,0 +1,123 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #DCE9DA, #ffffff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container principal */
+  .login-container {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Cartão de login */
+  .login-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Logo */
+  .login-logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+  }  
+  
+  /* Título */
+  .login-card h2 {
+    color: #209F85;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  /* Inputs */
+  .login-card input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border 0.3s;
+  }
+  
+  .login-card input:focus {
+    border-color: #209F85;
+    outline: none;
+  }
+  
+  /* Botão */
+  .login-card button {
+    width: 100%;
+    padding: 12px;
+    background-color: #209F85;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .login-card button:hover {
+    background-color: #167d69;
+  }
+  
+  .password-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .password-wrapper input {
+    width: 100%;
+    padding: 12px 40px 12px 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    top: 40%;
+    right: 12px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+    font-size: 1.2rem;
+  }
+  
+  /* Responsivo para telas menores */
+  @media (max-width: 480px) {
+    .login-card {
+      padding: 1.5rem;
+    }
+  
+    .login-card h2 {
+      font-size: 1.2rem;
+    }
+  
+    .login-logo {
+      width: 60px;
+    }
+  }
+  
