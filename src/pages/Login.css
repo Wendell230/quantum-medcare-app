@@ -9,7 +9,6 @@
     font-family: 'Segoe UI', sans-serif;
     background: linear-gradient(135deg, #DCE9DA, #ffffff);
     min-height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -32,6 +31,7 @@
     width: 100%;
     max-width: 400px;
     text-align: center;
+    margin-top: 7%;
   }
   
   /* Logo */
